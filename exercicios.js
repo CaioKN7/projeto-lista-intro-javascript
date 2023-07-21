@@ -1,4 +1,4 @@
-// EXEMPLOS DE IMPLEMENTAÇÃO ---------------------------------------------------------------
+/* // EXEMPLOS DE IMPLEMENTAÇÃO ---------------------------------------------------------------
 
 // EXERCÍCIO 0A
 function soma(num1, num2) {
@@ -25,26 +25,38 @@ function calculaAreaRetangulo() {
    console.log(area)
 
 }
-calculaAreaRetangulo()
+calculaAreaRetangulo() */
 
 // EXERCÍCIO 02
-function imprimeIdade() {
+/* function imprimeIdade() {
   // implemente sua lógica aqui
+  const anoAtual = +prompt("me envie o ano atual")
+   const anoDeNascimento = +prompt("Agora me envie seu ano de nascimento")
+   const idade = anoAtual-anoDeNascimento
+   console.log(idade)
 
 }
+imprimeIdade() */
 
 // EXERCÍCIO 03
-function calculaIMC(peso, altura) {
+/* function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
-
+  return imc = peso/(altura*altura)
 }
-
+calculaIMC(85, 1.8)
+ */
 // EXERCÍCIO 04
 function imprimeInformacoesUsuario() {
   // implemente sua lógica aqui
   // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
+  const nome = prompt("Me informe o seu nome")
+  const idade = prompt("Agora me informe a sua idade")
+  const email = prompt("Por fim, me informe o seu melhor email")
+  console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`)
 
 }
+
+imprimeInformacoesUsuario()
 
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
