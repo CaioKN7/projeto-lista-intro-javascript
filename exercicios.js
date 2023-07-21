@@ -46,7 +46,7 @@ imprimeIdade() */
 calculaIMC(85, 1.8)
  */
 // EXERCÍCIO 04
-function imprimeInformacoesUsuario() {
+/* function imprimeInformacoesUsuario() {
   // implemente sua lógica aqui
   // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
   const nome = prompt("Me informe o seu nome")
@@ -56,7 +56,7 @@ function imprimeInformacoesUsuario() {
 
 }
 
-imprimeInformacoesUsuario()
+imprimeInformacoesUsuario() */
 
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
@@ -67,8 +67,10 @@ function imprimeTresCoresFavoritas() {
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
-
+  const stringMaiuscula = string.toUpperCase()
+  return stringMaiuscula
 }
+retornaStringEmMaiuscula("oi")
 
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
