@@ -1,7 +1,7 @@
-/* // EXEMPLOS DE IMPLEMENTAÇÃO ---------------------------------------------------------------
+// EXEMPLOS DE IMPLEMENTAÇÃO ---------------------------------------------------------------
 
 // EXERCÍCIO 0A
-function soma(num1, num2) {
+/* function soma(num1, num2) {
   // implemente sua lógica aqui
   return num1 + num2
 }
@@ -12,20 +12,20 @@ function imprimeMensagem() {
   const mensagem = prompt('Digite uma mensagem!')
 
   console.log(mensagem)
-}
+} */
 
 // EXERCÍCIOS PARA FAZER ------------------------------------------------------------------
 
 // EXERCÍCIO 01
 function calculaAreaRetangulo() {
   // implemente sua lógica aqui
-   const alturaRetangulo = +prompt("Me mande a altura do retangulo")
-   const larguraRetangulo = +prompt("Me mande a largura do retangulo")
-   const area = alturaRetangulo*larguraRetangulo
+   const altura = +prompt("Me mande a altura do retangulo")
+   const largura = +prompt("Me mande a largura do retangulo")
+   const area = altura*largura
    console.log(area)
 
 }
-calculaAreaRetangulo() */
+
 
 // EXERCÍCIO 02
 /* function imprimeIdade() {
@@ -35,16 +35,14 @@ calculaAreaRetangulo() */
    const idade = anoAtual-anoDeNascimento
    console.log(idade)
 
-}
-imprimeIdade() */
+} */
 
-// EXERCÍCIO 03
-/* function calculaIMC(peso, altura) {
+/* // EXERCÍCIO 03
+ function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
   return imc = peso/(altura*altura)
-}
-calculaIMC(85, 1.8)
- */
+} */
+
 // EXERCÍCIO 04
 /* function imprimeInformacoesUsuario() {
   // implemente sua lógica aqui
@@ -54,23 +52,20 @@ calculaIMC(85, 1.8)
   const email = prompt("Por fim, me informe o seu melhor email")
   console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`)
 
-}
+} */
 
-imprimeInformacoesUsuario() */
-
-// EXERCÍCIO 05
+/* // EXERCÍCIO 05 - FAZER DEPOIS
 function imprimeTresCoresFavoritas() {
   // implemente sua lógica aqui
 
 }
-
+ */
 // EXERCÍCIO 06
-function retornaStringEmMaiuscula(string) {
+/* function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
   const stringMaiuscula = string.toUpperCase()
   return stringMaiuscula
-}
-retornaStringEmMaiuscula("oi")
+} */
 
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
