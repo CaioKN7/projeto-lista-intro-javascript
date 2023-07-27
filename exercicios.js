@@ -103,6 +103,13 @@ return array.pop()
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
   // implemente sua lógica aqui
+  const primeiroNumero = array[0];
+  const ultimoNumero = array[array.length - 1];
+
+  array[0] = ultimoNumero;
+  array[array.length - 1] = primeiroNumero;
+
+  return array;
 
 }
 
