@@ -77,6 +77,8 @@ function calculaAreaRetangulo() {
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
+  const ingressosNecessarios = custo / valorIngresso
+  return ingressosNecessarios
 
 }
 
@@ -89,7 +91,7 @@ function checaStringsMesmoTamanho(string1, string2) {
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
   // implemente sua lógica aqui
-
+ 
 }
 
 // EXERCÍCIO 10
