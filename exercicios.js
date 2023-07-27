@@ -103,7 +103,7 @@ return array.pop()
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
   // implemente sua lógica aqui
-  const primeiroNumero = array[0];
+  const primeiroNumero = array[0]
   const ultimoNumero = array[array.length - 1];
 
   array[0] = ultimoNumero;
@@ -122,8 +122,23 @@ return string1.toLowerCase()===string2.toLowerCase()
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
   // implemente sua lógica aqui
+  const anoAtual = +prompt("Digite o ano atual:");
+  const anoNascimento = +prompt("Digite o ano de nascimento:");
+  const anoEmissaoRG = +prompt("Digite o ano de emissão da carteira de identidade:");
 
-}
+
+  const idade = anoAtual - anoNascimento;
+  const tempoDesdeEmissao = anoAtual - anoEmissaoRG;
+  const precisaRenovar =
+    (idade <= 20 && tempoDesdeEmissao >= 5) ||
+    (idade > 20 && idade <= 50 && tempoDesdeEmissao >= 10) ||
+    (idade > 50 && tempoDesdeEmissao >= 15);
+
+  console.log(precisaRenovar);
+
+ }
+
+
 
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
