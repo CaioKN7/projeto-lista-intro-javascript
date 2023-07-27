@@ -28,23 +28,23 @@ function calculaAreaRetangulo() {
 
 
 // EXERCÍCIO 02
-/* function imprimeIdade() {
+ function imprimeIdade() {
   // implemente sua lógica aqui
   const anoAtual = +prompt("me envie o ano atual")
    const anoDeNascimento = +prompt("Agora me envie seu ano de nascimento")
    const idade = anoAtual-anoDeNascimento
    console.log(idade)
 
-} */
+}
 
-/* // EXERCÍCIO 03
+ // EXERCÍCIO 03
  function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
   return imc = peso/(altura*altura)
-} */
+}
 
 // EXERCÍCIO 04
-/* function imprimeInformacoesUsuario() {
+ function imprimeInformacoesUsuario() {
   // implemente sua lógica aqui
   // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
   const nome = prompt("Me informe o seu nome")
@@ -52,20 +52,27 @@ function calculaAreaRetangulo() {
   const email = prompt("Por fim, me informe o seu melhor email")
   console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`)
 
-} */
+}
 
-/* // EXERCÍCIO 05 - FAZER DEPOIS
-function imprimeTresCoresFavoritas() {
+ // EXERCÍCIO 05 - FAZER DEPOIS
+ function imprimeTresCoresFavoritas() {
   // implemente sua lógica aqui
+  const cor1 = prompt("Me diga sua cor favorita")
+  const cor2 = prompt("Me diga mais uma cor que gosta")
+  const cor3 = prompt("Mais uma cor para finalizar")
+  const resposta = [cor1, cor2, cor3]
+
+  console.log(resposta)
+
 
 }
- */
+
 // EXERCÍCIO 06
-/* function retornaStringEmMaiuscula(string) {
+ function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
   const stringMaiuscula = string.toUpperCase()
   return stringMaiuscula
-} */
+}
 
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
