@@ -143,11 +143,18 @@ function checaRenovacaoRG() {
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
   // implemente sua lógica aqui
+  const multiploDe400 = ano % 400 === 0;
+  const multiploDe4 = ano % 4 === 0;
+  const naoMultiploDe100 = ano % 100 !== 0;
+
+  const anoBissexto = multiploDe400 || (multiploDe4 && naoMultiploDe100);
+  return anoBissexto
 
 }
 
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
+  
 
 }
